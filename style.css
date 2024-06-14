@@ -1,1 +1,114 @@
-//style here
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(148, 184, 215);
+}
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    border: blue dotted 1px;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar{
+    padding: 1em;
+}
+
+.navbar ul{
+display: flex;
+list-style: none;
+
+}
+
+section{
+    
+    width: 100%;
+    aspect-ratio: 2.5 / 1;
+    
+    border: red dotted 1px;
+    
+    
+}
+
+#info{
+
+    border:black dotted 1px;
+    margin-top: 4em;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.R-side{
+    border: yellow dotted 1px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.R-side * {
+    border: pink dotted 1px;
+    padding: 2em;
+}
+
+
+
+.circle{
+    border: gray solid 3px;
+    width: 20%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+
+/*------------------- SKILLS SECTION ------------------*/
+
+#skills h2{
+        margin: 3em 0 0 3em;
+        
+
+}
+img{
+    width: 10%;
+    aspect-ratio: 1/1;
+    padding: 3%;
+    margin: 3% 6%;
+    border: black solid 1px;
+    border-radius: 2%;
+    
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+/*--------------- PROJECTS SECTION -------------------*/
+
+#projects h2{
+    margin: 3em 0 0 3em;
+}
+
